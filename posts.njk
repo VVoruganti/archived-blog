@@ -1,16 +1,21 @@
 ---
-layout: base-layout.njk
+layout: page.njk
 pagination:
   data: collections.post
   size: 10
   reverse: true
   alias: posts
 ---
+<style>
+    article {
+        padding-bottom: 20px;
+    }
+</style>
 {% for post in posts %}
   <article>
-    <h1>
+    <h2>
       <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    </h1>
+    </h2>
     <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
     {% excerpt post %}
     <a href="{{ post.url | url }}"

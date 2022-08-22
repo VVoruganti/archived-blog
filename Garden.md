@@ -1,7 +1,7 @@
 ---
 title: Garden
 link: garden
-layout: base-layout.njk
+layout: page.njk
 published_date: 2022-04-23
 canonical_url: http://www.vineeth.io/garden
 meta_description: Second brain record of what I'm currently thinking about

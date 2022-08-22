@@ -3,15 +3,13 @@
 <head> 
   <meta charset="utf-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <link rel="stylesheet" href="/css/style.css" />
   <title>Vineeth's Blog</title> 
 </head> 
+
 <body> 
-  <header>
-    <a href="/">Posts</a>
-    <a href="/About">About</a>
-    <a href="/Garden">Garden</a>
-  </header> 
-  <main> 
+   <header>{% include "nav.njk" %}</header>
+   <main> 
     {{ content | safe }}
   </main> 
 </body> 

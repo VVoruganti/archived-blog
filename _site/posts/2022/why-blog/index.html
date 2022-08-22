@@ -3,19 +3,43 @@
 <head> 
   <meta charset="utf-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <link rel="stylesheet" href="/css/style.css" />
   <title>Vineeth's Blog</title> 
 </head> 
+
 <body> 
-  <header>
-    <a href="/">Posts</a>
-    <a href="/About">About</a>
-    <a href="/Garden">Garden</a>
-  </header> 
-  <main> 
-    <article>
-  <h1>Why Blog</h1> 
-  <time datetime="2022-07-13T00:00:00.000Z">July 13, 2022</time> 
-  <h2>Goals</h2>
+   <header><nav class="navbar is-light" role="navigation" aria-label="main navigation">
+  <div class="navbar-start">
+    <div class="navbar-item has-text-weight-bold">
+      Vineeth Voruganti
+    </div>
+  </div>
+  <div class="navbar-end">
+    <a href="/posts" class="navbar-item">
+      Posts
+    </a>
+
+    <a href="/" class="navbar-item">
+      Me
+    </a>
+    
+    <a href="/garden" class="navbar-item">
+      Garden
+    </a>
+  </div>
+</nav>
+</header>
+   <main> 
+    <section class="page-layout">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="content mt-5">
+          <h1 class="title">Why Blog</h1>
+          <p class="subtitle is-6">
+            Published on: <time datetime="2022-08-22T07:42:56.912Z">August 22, 2022</time>
+          </p>
+          <h2>Goals</h2>
 <!-- Excerpt Start -->
 <p>I've seen a couple of posts about blogging before and a few discussions on hacker news and similar forums. I think for me, I want to use blogging purely for myself. There a couple of different outcomes I want.</p>
 <!-- Excerpt End -->
@@ -39,7 +63,11 @@ So if anyone ever actually does end up reading any of these then I'm sorry but d
 <p>Maybe one day I'll get sick of it and go back to a different platform or something, but for now I'm using bear. I like to use <a href="tab:https://taleguild.com/">Taleguild</a> as a distraction free writing environment.</p>
 <p>These don't have everything, but it's enough for now.</p>
 
-</article>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
 
   </main> 
 </body> 

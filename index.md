@@ -1,5 +1,5 @@
 --- 
-layout: base-layout.njk 
+layout: page.njk 
 --- 
 # Hello
 
