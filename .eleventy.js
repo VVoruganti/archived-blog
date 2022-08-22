@@ -23,6 +23,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addWatchTarget('css');
 
     return {
+        dir: {
+            input: 'pages'
+        },
         markdownTemplateEngine: "njk"
     }
 };
