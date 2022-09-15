@@ -1,30 +1,31 @@
 <!DOCTYPE html> 
 <html lang="en"> 
-    <head> 
-      <meta charset="utf-8"> 
-      <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-      <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Inconsolata">
-      <link rel="stylesheet" href="/css/style.css" />
-      <title>Vineeth's Blog</title> 
+  <head> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="/css/style.css" />
+    <meta name="description" content="My personal blog where I keep track of my thoughts and vent to the world" />
+      
+    <title>Vineeth's Blog</title> 
     </head> 
 
     <body> 
-        <div class="sidenav">
-            <div class="container">
-                <h1>Vineeth's<br>Blog<br>---------</h1>
-                <div class="links"> 
-                    <a href="/">About</a>
-                    <a href="/posts">Posts</a>
-                    <a href="/garden">Garden</a>
-                </div>
-                <p>Socials<br>---------</p>
-                <div class="links">
-                    <a href="">Twitter</a>    
-                    <a href="">Github</a>    
-                    <a href="">LinkedIn</a>    
-                </div>
+      <div class="sidenav">
+        <div class="container">
+            <h2>Vineeth's<br>Blog<br>---------</h2>
+            <div class="links"> 
+                <a href="/">About</a>
+                <a href="/posts">Posts</a>
+                <a href="/garden">Garden</a>
             </div>
+            <h2>Socials<br>---------</h2>
+            <div class="links">
+                <a href="http://www.twitter.com/TheMarshmalon" target="_blank">Twitter</a>    
+                <a href="https://github.com/VVoruganti" target="_blank">Github</a>    
+                <a href="https://www.linkedin.com/in/vineethvoruganti/" target="_blank">LinkedIn</a>    
+            </div>
+          </div>
         </div>
         <main> 
             {{ content | safe }}
