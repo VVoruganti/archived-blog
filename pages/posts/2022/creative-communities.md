@@ -1,7 +1,7 @@
 ---
 title: Creative Communities in Engineering
 link: creative-communities-in-engineering
-layout: post-layout.njk
+layout: post.njk
 date: 2022-07-15
 canonical_url: https://www.vineeth.io/blog/creative-communities-in-engineering
 meta_description: Creative Communities in engineering
