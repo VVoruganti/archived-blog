@@ -1,16 +1,33 @@
 <!DOCTYPE html> 
 <html lang="en"> 
-<head> 
-  <meta charset="utf-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-  <link rel="stylesheet" href="/css/style.css" />
-  <title>Vineeth's Blog</title> 
-</head> 
+    <head> 
+      <meta charset="utf-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+      <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Inconsolata">
+      <link rel="stylesheet" href="/css/style.css" />
+      <title>Vineeth's Blog</title> 
+    </head> 
 
-<body> 
-   <header>{% include "nav.njk" %}</header>
-   <main> 
-    {{ content | safe }}
-  </main> 
-</body> 
+    <body> 
+        <div class="sidenav">
+            <div class="container">
+                <h1>Vineeth's<br>Blog<br>---------</h1>
+                <div class="links"> 
+                    <a href="/">About</a>
+                    <a href="/posts">Posts</a>
+                    <a href="/garden">Garden</a>
+                </div>
+                <p>Socials<br>---------</p>
+                <div class="links">
+                    <a href="">Twitter</a>    
+                    <a href="">Github</a>    
+                    <a href="">LinkedIn</a>    
+                </div>
+            </div>
+        </div>
+        <main> 
+            {{ content | safe }}
+        </main> 
+    </body> 
 </html>

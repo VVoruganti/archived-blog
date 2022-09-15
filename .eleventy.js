@@ -4,8 +4,6 @@ moment.locale('en');
 
 module.exports = function(eleventyConfig) {
 
-
-
     eleventyConfig.addFilter('dateIso', date => {
         return moment(date).toISOString();
     });
@@ -26,7 +24,7 @@ module.exports = function(eleventyConfig) {
         dir: {
             input: 'pages'
         },
-        markdownTemplateEngine: "njk"
+        //        markdownTemplateEngine: "njk"
     }
 };
 
