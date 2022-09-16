@@ -17,8 +17,8 @@ module.exports = function(eleventyConfig) {
 
     // CSS Setup
 
-    eleventyConfig.addPassthroughCopy('css');
-    eleventyConfig.addWatchTarget('css');
+    eleventyConfig.addPassthroughCopy('static');
+    eleventyConfig.addWatchTarget('static');
 
     return {
         dir: {

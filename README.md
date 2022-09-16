@@ -15,10 +15,14 @@ The site is hosted using cloudflare pages which builds and pushes the page.
 - [x] Change layout to be more like [Moonscript](http://moonscript.org) because that one looks cool
 - [ ] Add [Metadata](#Metadata)
 - [ ] Add tags similar to notion lists 
-- [ ] Proper dynamic meta tags using the frontmatter in posts
+- [x] Proper dynamic meta tags using the frontmatter in posts
 - [ ] Pagination of front page
 - [ ] Dynamic resizing
-- [ ] Favicon
+- [x] Favicon
+- [x] Sitemap
+- [x] Garden link
+- [x] preload stylesheet
+
 
 ## Random Ideas
 

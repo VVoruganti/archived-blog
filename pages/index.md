@@ -1,6 +1,8 @@
 --- 
 title: Hello
-layout: page.njk 
+layout: page.njk
+meta_description: My personal blog where I keep track of my thoughts and vent to the world
+canonical_url: https://www.vineeth.io/
 --- 
 
 I'm Vineeth, a Program Manager @ Microsoft. Like to spend my time reading about *Game Design*, *DevOps*, and *Blockchain*

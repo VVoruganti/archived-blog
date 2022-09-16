@@ -5,7 +5,6 @@ layout: page.njk
 published_date: 2022-04-23
 canonical_url: http://www.vineeth.io/garden
 meta_description: Second brain record of what I'm currently thinking about
-tags: [ 'reading', 'second-brain']
 ---
 
 This page is inspired by [Karlicoss's exobrain](https://beepb00p.xyz/exobrain/)
