@@ -23,11 +23,11 @@ Different tech and concepts I find interesting and cool links I want to look at 
 
 ### Game Dev
 
-- [Box2D tutorial](https://www.iforce2d.net/b2dtut/) - Struggled to find a good tutorial on this and really understand how to make a good feeling platformer
-- [libtcod](https://github.com/libtcod/libtcod) - Roguelike dev engine
+- [Box2D tutorial](https://www.iforce2d.net/b2dtut/) -- Struggled to find a good tutorial on this and really understand how to make a good feeling platformer
+- [libtcod](https://github.com/libtcod/libtcod) --- Roguelike dev engine
 - [Game Programming Design Patterns](http://gameprogrammingpatterns.com/)
 - [How to make a .io game](https://victorzhou.com/blog/build-an-io-game-part-1/)
-- [Machinations](https://machinations.io/) - Tool to prototype game systems and economies
+- [Machinations](https://machinations.io/) --- Tool to prototype game systems and economies
 
 ### Massively concurrrent dataflow programming languages
 
@@ -78,7 +78,7 @@ I want to learn what I can actually create with web3 tech so I can make my own j
 
 ### Climate
 
-How is technology currently being leveraged to help with climate change. I've seen a lot of different
+How is technology being leveraged to help with climate change. I've seen a lot of different
 projects around tokenizing carbon credits, carbon sink technology, advocacy, but want to get more of an
 understanding of the landscape and the current impact it is having.
 

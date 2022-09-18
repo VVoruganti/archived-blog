@@ -1,5 +1,5 @@
 --- 
-title: Why Blog 
+title: Why I Blog 
 layout: post.njk 
 link: why-i-blog
 date: 2022-07-13
@@ -12,7 +12,7 @@ tags: ['post']
 <!-- Excerpt Start --> 
 I've seen a couple of posts about blogging before and a
 few discussions on hacker news and similar forums. I think for me, I want to use
-blogging purely for myself. There a couple of different outcomes I want. 
+blogging purely for myself. There are a couple of different outcomes I want. 
 <!-- Excerpt End -->
 I want to be a little more accountable with my projects. I
 definitely suffer from the syndrome of starting new projects before finishing

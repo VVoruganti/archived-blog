@@ -22,7 +22,8 @@ The site is hosted using cloudflare pages which builds and pushes the page.
 - [x] Sitemap
 - [x] Garden link
 - [x] preload stylesheet
-
+- [x] Links open in tab
+- [ ] Highlighting of Code
 
 ## Random Ideas
 
