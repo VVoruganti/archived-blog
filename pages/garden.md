@@ -74,6 +74,22 @@ I want to learn what I can actually create with web3 tech so I can make my own j
 - [Protocol Buffers](https://developers.google.com/protocol-buffers/)
 - [Buf](https://buf.build/)
 
+## Protocol Engineering
+
+This comes from looking at a lot of different blockchain projects and noticing
+that the base for many of them aren't a coin but rather a common protocol. I
+think my interest in this started back when I discovered [IPFS](https://ipfs.io/) before I found
+[Filecoin](https://filecoin.io/filecoin.pdf). Then after learning a bit about how a DAO works through sart contracts
+I was wondering what else you could do by design domain specific protocols.
+
+- Could you maybe design an entire set of laws and decision making using a DAO
+protocol
+  - For example could you codify Robert's Rules of Order into a protocol that
+  you could then deploy as an instance of a "deliberative assembly"
+- Also interested in this domain from the space of networking protocols. For the
+most part, the different protocols I've seen are fundamentally based on TCP and UDP.
+So how can you go about designing your own protocol for specific needs?
+
 ## Questions I want to explore
 
 ### Climate
