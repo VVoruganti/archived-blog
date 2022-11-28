@@ -1,5 +1,5 @@
 const moment = require('moment');
-
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 moment.locale('en');
 
 module.exports = function(eleventyConfig) {
@@ -29,6 +29,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('static');
   eleventyConfig.addWatchTarget('static');
   eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
+
+  // RSS Setup
+  eleventyConfig.addPlugin(pluginRss);
 
   return {
     dir: {
