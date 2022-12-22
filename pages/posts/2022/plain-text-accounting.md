@@ -58,7 +58,7 @@ more lifelogging anyways so I thought this is something I can do.
 Getting the data doesn't seem so much like an issue since I have some confidence
 that Plaid will work fine, so instead I first wanted to look into how to process
 and display the data. Besides [ledger-cli](https://www.ledger-cli.org/), I also
-found that there was (hledger)[https://hledger.org/], and [beancount](https://github.com/beancount/beancount).
+found that there was [hledger](https://hledger.org/), and [beancount](https://github.com/beancount/beancount).
 All of them started talking about this idea of double-entry accounting so I figured I should read up on that a bit more first. 
 
 ### Double-entry Accounting

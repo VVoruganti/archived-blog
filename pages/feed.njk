@@ -22,8 +22,8 @@
     <atom:link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self" type="application/rss+xml" />
     <description>{{ metadata.subtitle }}</description>
     <language>{{ metadata.language }}</language>
-    {% for post in collections.post | reverse %}
-    {% set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
+    {%- for post in collections.post | reverse %}
+    {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ absolutePostUrl }}</link>
@@ -32,6 +32,6 @@
       <dc:creator>{{ metadata.author.name }}</dc:creator>
       <guid>{{ absolutePostUrl }}</guid>
     </item>
-    {% endfor %}
+    {%- endfor %}
   </channel>
 </rss>
