@@ -13,15 +13,15 @@ I want to make a better record of who I am and the content I am interacting with
 
 ---
 
-## Reading
+# Reading
 
-Currently reading: Fortune's Formula
+Currently reading: Living in the End Times
 
-## Want to learn
+# Want to learn
 
 Different tech and concepts I find interesting and cool links I want to look at more.
 
-### Game Dev
+## Game Dev
 
 - [Box2D tutorial](https://www.iforce2d.net/b2dtut/) -- Struggled to find a good tutorial on this and really understand how to make a good feeling platformer
 - [libtcod](https://github.com/libtcod/libtcod) --- Roguelike dev engine
@@ -29,14 +29,14 @@ Different tech and concepts I find interesting and cool links I want to look at 
 - [How to make a .io game](https://victorzhou.com/blog/build-an-io-game-part-1/)
 - [Machinations](https://machinations.io/) --- Tool to prototype game systems and economies
 
-### Massively concurrrent dataflow programming languages
+## Massively concurrrent dataflow programming languages
 
 What even are these, why they stopped being used.
 
 - [Joule Programming Language](<https://en.wikipedia.org/wiki/Joule_(programming_language)>)
 - [E Programming Language](<https://en.wikipedia.org/wiki/E_(programming_language)>)
 
-### Emulators and Hardware
+## Emulators and Hardware
 
 Just interested in old hardware and why we need to emulate hardware to play ROMs
 
@@ -44,14 +44,14 @@ Just interested in old hardware and why we need to emulate hardware to play ROMs
 - [Rodrigro Copetti Architecture of Consoles](https://www.copetti.org/)
 - [MiSTer FPGA](https://www.retrorgb.com/mister.html)
 
-### Compilers and Tree Parsers
+## Compilers and Tree Parsers
 
 Mainly stemming from a interest in neovim and how text editors work
 
 - [Crafting Interpreters](https://craftinginterpreters.com/index.html)
 - [How to write a tree-sitter grammar in an afternoon](https://siraben.dev/2022/03/01/tree-sitter.html)
 
-### Blockchain Development
+## Blockchain Development
 
 I want to learn what I can actually create with web3 tech so I can make my own judgement on how useful I see it is.
 
@@ -61,7 +61,7 @@ I want to learn what I can actually create with web3 tech so I can make my own j
 - [Web 3 Stack](https://edgeandnode.com/blog/defining-the-web3-stack/)
 - [Crypto Reading](https://danromero.org/crypto-reading/)
 
-### Game AI
+## Game AI
 
 - [Chess Engines](https://www.chessengines.org/)
 - [Game AI Pro](http://www.gameaipro.com/)
@@ -90,9 +90,34 @@ protocol
 most part, the different protocols I've seen are fundamentally based on TCP and UDP.
 So how can you go about designing your own protocol for specific needs?
 
-## Questions I want to explore
+# Questions I want to explore
 
-### Climate
+## Financial Infrastructure
+
+These questions stem from some the work I was doing with
+[plain-text-accounting](../2022/plain-text-accounting) and trying to understand
+why its so hard to get my own financial data and its a bit two-pronged in terms
+of what I want to know. First, I want to understand a bit more of creating my
+own personal finance stack. This includes the budgeting work I've done, but also
+stuff such as owning my own bank and investments. Some related platforms I was
+looking at. 
+
+- [Column Developer Bank](https://column.com/)
+- [Composer no-code investment workflows](https://www.composer.trade/) 
+- [Alpaca algotrading](https://alpaca.markets/) 
+- [Bare Metal Bank Increase](https://increase.com/)
+
+The other idea I was thinking about is what is the actual technology that is at
+the backbones of the US or current world financial system. How does the stock
+exchange work? I know how a lot of decentralized or centralized exchanges in the
+web3 world work, but I don't fully understand the current stock exchange. If
+it's an exchange why I can trade on it directly? Wanted to frame this as if I
+was starting a new country how would I build a financial system. 
+
+- [Electronic Data Interchange](https://en.wikipedia.org/wiki/Electronic_data_interchange)
+- [Fednow](https://www.frbservices.org/financial-services/fednow)
+
+## Climate
 
 How is technology being leveraged to help with climate change. I've seen a lot of different
 projects around tokenizing carbon credits, carbon sink technology, advocacy, but want to get more of an
