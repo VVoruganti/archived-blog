@@ -9,13 +9,13 @@ meta_description: Second brain record of what I'm currently thinking about
 
 This page is inspired by [Karlicoss's exobrain](https://beepb00p.xyz/exobrain/)
 
-I want to make a better record of who I am and the content I am interacting with.
+I want to make a better record of who I am, and the content I am interacting with.
 
 ---
 
 # Reading
 
-Currently reading: Living in the End Times
+Currently reading: Priestdaddy by Patricia Lockwood
 
 # Want to learn
 
@@ -71,8 +71,6 @@ I want to learn what I can actually create with web3 tech so I can make my own j
 - [Wikipedia Page](https://en.wikipedia.org/wiki/Interface_description_language)
 - [Apache Thrift Project](https://thrift.apache.org/)
 - [Imandra.ai: IPL](https://www.imandra.ai/ipl-product)
-- [Protocol Buffers](https://developers.google.com/protocol-buffers/)
-- [Buf](https://buf.build/)
 
 ## Protocol Engineering
 
@@ -96,7 +94,7 @@ So how can you go about designing your own protocol for specific needs?
 
 These questions stem from some the work I was doing with
 [plain-text-accounting](../2022/plain-text-accounting) and trying to understand
-why its so hard to get my own financial data and its a bit two-pronged in terms
+why it's so hard to get my own financial data, and it's a bit two-pronged in terms
 of what I want to know. First, I want to understand a bit more of creating my
 own personal finance stack. This includes the budgeting work I've done, but also
 stuff such as owning my own bank and investments. Some related platforms I was
@@ -121,10 +119,10 @@ was starting a new country how would I build a financial system.
 
 How is technology being leveraged to help with climate change. I've seen a lot of different
 projects around tokenizing carbon credits, carbon sink technology, advocacy, but want to get more of an
-understanding of the landscape and the current impact it is having.
+understanding of the landscape, and the current impact it is having.
 
 Some links I'm looking at
 
-- [Climatebase](https://climatebase.org/) - list of companies and jobs in the climate space
-- [Crypto Climate Accord](https://cryptoclimate.org/accord/) - A sorta manifesto about how web3 companies can help with the climate crisis
-- [Climate Collective](https://climatecollective.org/) - Another (rival?) group of web3 organizations trying to help curtail the climate crisis.
+- [Climatebase](https://climatebase.org/) — list of companies and jobs in the climate space
+- [Crypto Climate Accord](https://cryptoclimate.org/accord/) — A sorta manifesto about how web3 companies can help with the climate crisis
+- [Climate Collective](https://climatecollective.org/) — Another (rival?) group of web3 organizations trying to help curtail the climate crisis.
