@@ -58,6 +58,14 @@ html {
     text-decoration: none;
 }
 
+.sidenav-footer {
+  position: absolute;
+  bottom: 40px;
+  left: 24px;
+  right: 24px;
+}
+
+
 /* Main Content */
 
 main {

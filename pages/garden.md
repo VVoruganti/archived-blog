@@ -9,7 +9,9 @@ meta_description: Second brain record of what I'm currently thinking about
 
 This page is inspired by [Karlicoss's exobrain](https://beepb00p.xyz/exobrain/)
 
-I want to make a better record of who I am, and the content I am interacting with.
+I want to make a better record of who I am, and the content I am interacting
+with. Eventually want to consolidate my bookmarks to make something like
+[Nikiv.dev's Wiki](https://wiki.nikiv.dev/)
 
 ---
 
@@ -23,11 +25,12 @@ Different tech and concepts I find interesting and cool links I want to look at 
 
 ## Game Dev
 
-- [Box2D tutorial](https://www.iforce2d.net/b2dtut/) -- Struggled to find a good tutorial on this and really understand how to make a good feeling platformer
-- [libtcod](https://github.com/libtcod/libtcod) --- Roguelike dev engine
+- [Box2D tutorial](https://www.iforce2d.net/b2dtut/) — Struggled to find a good tutorial on this and really understand how to make a good feeling platformer
+- [libtcod](https://github.com/libtcod/libtcod) — Roguelike dev engine
 - [Game Programming Design Patterns](http://gameprogrammingpatterns.com/)
 - [How to make a .io game](https://victorzhou.com/blog/build-an-io-game-part-1/)
-- [Machinations](https://machinations.io/) --- Tool to prototype game systems and economies
+- [Machinations](https://machinations.io/) — Tool to prototype game systems and economies
+- [How to make an RPG](https://howtomakeanrpg.com/)
 
 ## Massively concurrrent dataflow programming languages
 
@@ -40,7 +43,7 @@ What even are these, why they stopped being used.
 
 Just interested in old hardware and why we need to emulate hardware to play ROMs
 
-- [Fabien Sanglard](https://fabiensanglard.net/) - Really cool posts on games and hardware
+- [Fabien Sanglard](https://fabiensanglard.net/) — Really cool posts on games and hardware
 - [Rodrigro Copetti Architecture of Consoles](https://www.copetti.org/)
 - [MiSTer FPGA](https://www.retrorgb.com/mister.html)
 
@@ -50,16 +53,8 @@ Mainly stemming from a interest in neovim and how text editors work
 
 - [Crafting Interpreters](https://craftinginterpreters.com/index.html)
 - [How to write a tree-sitter grammar in an afternoon](https://siraben.dev/2022/03/01/tree-sitter.html)
-
-## Blockchain Development
-
-I want to learn what I can actually create with web3 tech so I can make my own judgement on how useful I see it is.
-
-- [Buildspace](https://buildspace.so/)
-- [Kernel Community](https://www.kernel.community/en/)
-- [Coin Story](https://coinstory.tech/#resources)
-- [Web 3 Stack](https://edgeandnode.com/blog/defining-the-web3-stack/)
-- [Crypto Reading](https://danromero.org/crypto-reading/)
+- [Let's Build a Compiler](https://compilers.iecc.com/crenshaw/)
+- [From Source Code to Machine Code](https://build-your-own.org/#section-compiler)
 
 ## Game AI
 
