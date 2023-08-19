@@ -12,13 +12,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "moment": "^2.29.4"
   },
   "dependencies": {
     "markdown-it": "^13.0.1",
-    "markdown-it-anchor": "^8.6.5",
+    "markdown-it-anchor": "^8.6.7",
     "markdown-it-link-attributes": "^4.0.1"
   }
 }
