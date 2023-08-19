@@ -19,6 +19,11 @@ html {
 }
 
 /* Sidebar */
+ img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
 
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -70,4 +75,24 @@ main a {
 
 .title {
     font-size: 2rem;
+}
+
+main pre {
+  background: #3C3C3C;
+  color: white;
+  border-radius: 4px;
+  padding: 40px 45px;
+  font-size: 14px;
+  overflow: auto;
+}
+
+main p > code, main li > code {
+  background: #F0F0F0;
+  color: #666a6c;
+  padding: 1px 8px;
+}
+
+main blockquote {
+  background: #F0F0F0;
+  padding: 20px 20px
 }
