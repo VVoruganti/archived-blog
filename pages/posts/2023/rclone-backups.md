@@ -32,7 +32,7 @@ felt like exactly what I needed. A pretty straightforward cli for backing up
 local files to different storage providers with support for tons of different
 options. 
 
-# Getting Started
+## Getting Started
 
 I installed rclone with homebrew on my mac and was ready to go pretty soon after
 that. 
@@ -82,9 +82,9 @@ your new remote.
 
 Now you are ready to start backing up your files. 
 
-# Usage
+## Usage
 
-## GUI
+### GUI
 
 Now if you prefer a graphical interface `rclone` actually supports this pretty
 well. Run the below command, and a graphical interface will pop up in your
@@ -148,9 +148,9 @@ write scripts and make [cron jobs](https://en.wikipedia.org/wiki/Cron) to back u
 You can back up files from multiple different sources and use your remote
 storage provider to share download links. There's a ton of possibilites. 
 
-# Gotchas
+## Gotchas
 
-## Dry Runs
+### Dry Runs
 
 This is probably the most important tip I can give you. For almost every command
 that will change files there is a global flag to run a dry run — `--dry-run`.
@@ -159,7 +159,7 @@ sure it's doing what you want it to do.
 
 More about the global flags is covered in [rclone global flags](https://rclone.org/flags/)
 
-## Copy Command
+### Copy Command
 
 There are a few things to point our and mistakes I made that I want to call
 out. Firstly commands like `copy` and generally a lot of `rclone` defaults to
@@ -175,7 +175,7 @@ is always a trailing `/` in the path. This is covered well in the [rclone
 copy](https://rclone.org/commands/rclone_copy/) docs, but I was a bit
 overzealous and ended up messing up my remote directory structure once or twice. 
 
-## Sync Command
+### Sync Command
 
 Another thing is you might immediately be inclined to use the `sync` command,
 but I would recommend against this if you want to be safe. `sync` will delete
