@@ -28,7 +28,7 @@ brain always wanted into a pseudo reality. This endless creativity and
 the promise that you could make anything you could imagine ultimately led me
 down the path of engineering.
 
-Now hackathons have lost there majesty a bit, which I talked about a little in
+Now hackathons have lost their majesty a bit, which I talked about a little in
 [Creative Communities for
 Engineering](https://vineeth.io/posts/2022/creative-communities/), but that’s an
 aside. 
