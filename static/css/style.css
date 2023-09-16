@@ -101,6 +101,11 @@ main p > code, main li > code {
 }
 
 main blockquote {
-  background: #F0F0F0;
-  padding: 20px 20px
+  border-left: 4px solid #000000;
+  text-decoration: wavy;
+  font-size: 1.2em;
+  line-height: 1.5;
+  padding: 5px 10px;
+  font-style: italic;
+  text-align: center;
 }
