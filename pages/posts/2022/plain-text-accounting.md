@@ -3,7 +3,7 @@ title: Plain Text Accounting
 link: plain-text-accounting
 layout: post.njk 
 date: 2022-11-27
-permalink: "posts/plain-text-accounting"
+permalink: "posts/plain-text-accounting/"
 meta_description: My personal journey in finding a suitable personal finance system. 
 tags: ['post'] 
 ---

@@ -4,7 +4,7 @@ link: how-i-blog
 layout: post.njk
 date: 2022-09-18
 meta_description: An update on the different tools I'm using to maintain my blog
-permalink: "posts/how-i-blog"
+permalink: "posts/how-i-blog/"
 tags: ["post"]
 ---
 

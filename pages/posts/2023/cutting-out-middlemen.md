@@ -3,7 +3,7 @@ title: Cutting Out The Middlemen
 link: cutting-out-the-middlemen
 layout: post.njk 
 date: 2023-02-13
-permalink: "posts/cutting-out-the-middlemen"
+permalink: "posts/cutting-out-the-middlemen/"
 meta_description: My goals and ideals going into personal projects in 2023 
 tags: ['post'] 
 ---

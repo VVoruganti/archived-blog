@@ -4,7 +4,7 @@ link: new-age-of-magic
 layout: post.njk 
 date: 2023-09-16
 canonical_irl: http://www.vineeth.io/posts/new-age-of-magic
-permalink: "posts/new-age-of-magic"
+permalink: "posts/new-age-of-magic/"
 meta_description: Thoughts on Clarke's 3 Laws and their relation to AI 
 tags: ['post'] 
 ---
