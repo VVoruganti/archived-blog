@@ -7,7 +7,7 @@ My [11ty](11ty.dev) blog deployed to [http://www.vineeth.io](http://www.vineeth.
 Basically just two different commands to know `pnpm run build` for making the static assets and
 `pnpm run start` for starting a live reload server.
 
-The site is hosted using cloudflare pages which builds and pushes the page. 
+The site is hosted using cloudflare pages, which builds and pushes the page. 
 
 ## TODO
 
@@ -45,6 +45,7 @@ on how to structure a blog
 - [https://andymatuschak.org/](https://andymatuschak.org/)
 - [https://www.akselmo.dev/](https://www.akselmo.dev/)
 - [https://moonscript.org/](https://moonscript.org/)
+- [https://arne.me/](https://arne.me/)
 
 
 ### Fonts
@@ -56,7 +57,7 @@ Used the __Inconsolata__ font in the end product.
 - [https://beautifulwebtype.com/ibm-plex-mono/](https://beautifulwebtype.com/ibm-plex-mono/)
 - [https://fonts.google.com/specimen/Inconsolata](https://fonts.google.com/specimen/Inconsolata)
 - [https://fonts.google.com/?category=Monospace](https://fonts.google.com/?category=Monospace)
-- [Monocraft - Minecraft Inspired](https://github.com/IdreesInc/Monocraft) 
+- [Monocraft – Minecraft Inspired](https://github.com/IdreesInc/Monocraft) 
 
 ### Themes
 

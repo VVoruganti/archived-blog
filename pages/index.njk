@@ -1,0 +1,59 @@
+---
+layout: page.njk
+title: Hello 👋
+meta_description: My personal blog where I keep track of my thoughts and vent to the world
+pagination:
+  data: collections.post
+  size: 10
+  reverse: true
+  alias: posts
+---
+<style>
+    .post {
+        margin: 2px 0px;
+        display: grid;
+        grid-template-columns: 1fr min-content 1fr;
+        align-items:center;
+    } 
+    .post > a {
+        text-align: right;
+        flex-grow: 1;
+    }
+    .post > p {
+        margin: 0 0;
+        text-align:center;
+    }
+    .post > time {
+        text-align: left;
+    }
+    #posts {
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+</style>
+<p> I'm Vineeth, also go by <b>marshmalon</b> online.</p>
+<p>
+Currently a Founder @ <a href="https://www.plasticlabs.ai">Plastic Labs</a>. Like to spend
+my time reading about <b>Game Design</b>, <b>DevSecOps</b>, and <b>Blockchain</b>
+</p>
+<p>
+Using this as a space to put down my thoughts and experiments. Updated every
+once in a while, no real pattern or cadence.
+</p>
+<p>
+The structure of this blog was inspired by <a href="https//beepb00p.xyz/">karlicoss</a>
+with styling inspiration from <a href="https://moonscript.org/">moonscript</a>
+</p>
+
+<h2>Posts</h2>
+<div id="posts">
+{% for post in posts %}
+    <div class="post">
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+        <p>&#20;|&#20;</p>
+        <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+    </div>
+{% endfor %}
+</div>
+<div>

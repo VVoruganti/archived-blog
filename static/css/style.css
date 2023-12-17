@@ -1,16 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata');
 
-$family-primary: 'Inconsolata';
-
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+$family-primary: 'Inconsolata'; 
 
 /* CSS Reset - https://www.webfx.com/blog/web-design/a-comprehensive-guide-to-css-resets/ */
 html, body {padding: 0; margin: 0;} html {font-size: 1em;} body {font-size: 100%;} a img, :link img, :visited img {border: 0;}
 
 body {
     margin: 0;
-    background-color: #EEE;
+    background-color: #fff;
 }
 
 html {
@@ -25,25 +23,25 @@ html {
   display: block;
 }
 
-.sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #2b2b2b; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-    color: white;
-    text-align: center;
-}
+/* .sidenav { */
+/*     height: 100%; /* Full-height: remove this if you want "auto" height */ */
+/*     width: 160px; /* Set the width of the sidebar */ */
+/*     position: fixed; /* Fixed Sidebar (stay in place on scroll) */ */
+/*     z-index: 1; /* Stay on top */ */
+/*     top: 0; /* Stay at the top */ */
+/*     left: 0; */
+/*     background-color: #2b2b2b; /* Black */ */
+/*     overflow-x: hidden; /* Disable horizontal scroll */ */
+/*     padding-top: 20px; */
+/*     color: white; */
+/*     text-align: center; */
+/* } */
 
-.sidenav > .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/* .sidenav > .container { */
+/*     display: flex; */
+/*     flex-direction: column; */
+/*     align-items: center; */
+/* } */
 
 .links {
     display: flex;
@@ -69,8 +67,9 @@ html {
 /* Main Content */
 
 main {
-    margin-left: 160px;
-    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 80px 20px;
     width: 60%;
     background-color: white;
     min-height:100vh;
@@ -79,6 +78,39 @@ main {
 main a {
     text-decoration: none;
     color: #f05a7f;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  left: 0;
+  width: 60%;
+  padding: 20px;
+  background-color: #2b2b2b;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display:flex;
+  justify-content: space-between;
+}
+
+footer > #footer-left { 
+  display: flex;
+  justify-content: row;
+}
+
+footer > #footer-right {
+  display:flex;
+  justify-content:row;
+}
+
+footer a  {
+  text-decoration: none;
+  color: white;
 }
 
 .title {
@@ -109,3 +141,21 @@ main blockquote {
   font-style: italic;
   text-align: center;
 }
+
+@media only screen and (max-width: 480px) {
+    main, footer {
+        width: 100%;
+    }
+
+    footer {
+      justify-content: space-around;
+    }
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 900px) {
+    main, footer {
+        width: 100%;
+    }
+}
+
