@@ -2,7 +2,7 @@
 title: Creative Communities in Engineering
 layout: post.njk
 date: 2022-07-15
-permalink: "posts/creative-communities-in-engineering"
+permalink: "posts/creative-communities-in-engineering/"
 meta_description: Creative Communities in engineering
 tags: ["post", "creativity", "hackathons"]
 ---
