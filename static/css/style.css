@@ -80,6 +80,10 @@ main a {
     color: #f05a7f;
 }
 
+main ul > li {
+  overflow-wrap: break-word;
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -89,7 +93,7 @@ footer {
   margin-top: 10px;
   left: 0;
   width: 60%;
-  padding: 20px;
+  padding: 20px 0px;
   background-color: #2b2b2b;
   text-decoration: none;
   color: white;
@@ -144,7 +148,7 @@ main blockquote {
 
 @media only screen and (max-width: 480px) {
     main, footer {
-        width: 100%;
+      width: auto;
     }
 
     footer {
@@ -155,7 +159,7 @@ main blockquote {
 /* For mobile phones: */
 @media only screen and (max-width: 900px) {
     main, footer {
-        width: 100%;
+        width: auto;
     }
 }
 
