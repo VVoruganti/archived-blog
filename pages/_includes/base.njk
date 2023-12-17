@@ -8,34 +8,25 @@
   <link rel="stylesheet" href="/static/css/style.css" />
   <meta name="description" content="{{ meta_description }}" />
   <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
-
-
   <title>Vineeth's Blog</title>
 </head>
 
 <body>
-  <div class="sidenav">
-    <div class="container">
-      <h2>Vineeth's<br>Blog<br>---------</h2>
-      <div class="links">
-        <a href="/">About</a>
-        <a href="/posts">Posts</a>
-        <a href="/garden">Garden</a>
-      </div>
-      <h2>Socials<br>---------</h2>
-      <div class="links">
-        <a href="http://www.twitter.com/TheMarshmalon" target="_blank">Twitter</a>
-        <a href="https://github.com/VVoruganti" target="_blank">Github</a>
-        <a href="https://www.linkedin.com/in/vineethvoruganti/" target="_blank">LinkedIn</a>
-      </div>
-    </div>
-    <div class="links sidenav-footer">
-      <a href="/feed.xml" target="_blank">RSS</a>
-    </div>
-  </div>
   <main>
     {{ content | safe }}
   </main>
+  <footer id="footer">
+    <div id="#footer-left">
+      <a href="/">Home</a>
+      <a href="/garden">Garden</a>
+      <a href="/feed.xml" target="_blank">RSS</a>
+    </div>
+    <div id="#footer-right">
+      <a href="http://www.twitter.com/TheMarshmalon" target="_blank">Twitter</a>
+      <a href="https://github.com/VVoruganti" target="_blank">Github</a>
+      <a href="https://www.linkedin.com/in/vineethvoruganti/" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
 </body>
 
 </html>

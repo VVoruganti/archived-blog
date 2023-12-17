@@ -28,6 +28,8 @@ module.exports = function(eleventyConfig) {
   // CSS Setup
   eleventyConfig.addPassthroughCopy('static');
   eleventyConfig.addWatchTarget('static');
+
+  // Shortcode Setup
   eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
 
   // RSS Setup
