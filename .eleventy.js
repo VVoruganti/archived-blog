@@ -1,5 +1,6 @@
 const moment = require('moment');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 moment.locale('en');
 
 module.exports = function(eleventyConfig) {
@@ -15,6 +16,9 @@ module.exports = function(eleventyConfig) {
         rel: "noopener",
       },
     });
+
+  eleventyConfig.addPlugin(syntaxHighlight); //https://www.11ty.dev/docs/plugins/syntaxhighlight/
+
   eleventyConfig.setLibrary("md", md)
 
   eleventyConfig.addFilter('dateIso', date => {

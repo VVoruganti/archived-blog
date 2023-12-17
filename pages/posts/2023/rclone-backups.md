@@ -3,7 +3,7 @@ title: Backing Up Personal Files with rclone
 link: rclone-backups
 layout: post.njk 
 date: 2023-08-19
-canonical_irl: http://www.vineeth.io/blog/rclone-backups
+permalink: "posts/rclone-backups"
 meta_description: The process I'm using to backup my files. 
 tags: ['post'] 
 ---

@@ -1,9 +1,9 @@
 --- 
 title: Why I Blog 
 layout: post.njk 
-link: why-i-blog
 date: 2022-07-13
 meta_description: A description of my blogging habits 
+permalink: "posts/why-i-blog"
 tags: ['post'] 
 ---
 

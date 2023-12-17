@@ -117,20 +117,20 @@ footer a  {
     font-size: 2rem;
 }
 
-main pre {
-  background: #3C3C3C;
-  color: white;
-  border-radius: 4px;
-  padding: 40px 45px;
-  font-size: 14px;
-  overflow: auto;
-}
+/* main pre { */
+  /* background: #3C3C3C; */
+  /* color: white; */
+/*   border-radius: 4px; */
+/*   padding: 40px 45px; */
+/*   font-size: 14px; */
+/*   overflow: auto; */
+/* } */
 
-main p > code, main li > code {
-  background: #F0F0F0;
-  color: #666a6c;
-  padding: 1px 8px;
-}
+/* main p > code, main li > code { */
+/*   background: #F0F0F0; */
+/*   color: #666a6c; */
+/*   padding: 1px 8px; */
+/* } */
 
 main blockquote {
   border-left: 4px solid #000000;

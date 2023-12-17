@@ -3,17 +3,15 @@ title: Plain Text Accounting
 link: plain-text-accounting
 layout: post.njk 
 date: 2022-11-27
-canonical_irl: http://www.vineeth.io/blog/plain-text-accounting
+permalink: "posts/plain-text-accounting"
 meta_description: My personal journey in finding a suitable personal finance system. 
 tags: ['post'] 
 ---
 
-<!-- Excerpt Start -->
 I'm writing this as I go through the process of determining a personal
 finance/accounting system that I'm happy with. If you know me or my relationship
 with neovim then this journey might seem pretty common for me, but I thought it
 would be a good indication of how I handle my life. 
-<!-- Excerpt End -->
 
 ## How We Got Here
 
