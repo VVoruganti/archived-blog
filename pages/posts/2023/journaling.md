@@ -3,7 +3,7 @@ title: Journaling with Neovim to Manage my Mind
 link: journaling-with-neovim
 layout: post.njk 
 date: 2023-12-21
-permalink: "posts/journaling-with-neovim"
+permalink: "posts/journaling-with-neovim/"
 meta_description: A brief overview of how I use neovim to organize my thoughts and help my mental health 
 tags: ['post'] 
 ---
