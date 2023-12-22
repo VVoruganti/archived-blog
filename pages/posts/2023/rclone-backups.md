@@ -24,7 +24,7 @@ enough where the plans seemed worth it. Then I started thinking well isn't cloud
 storage pretty cheap? I've messed around with cloud storage at a couple of jobs
 before and s3 compatible storage always seemed pretty cheap. 
 
-So in keeping with the theme of [Cutting out the middlemen](../cutting-out-the-middlemen.md)
+So in keeping with the theme of [Cutting out the middlemen](../cutting-out-the-middlemen)
 I decided to look into my options for just using s3 directly.
 
 When I started researching I came across [rclone](https://rclone.org/), and it

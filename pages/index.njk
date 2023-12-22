@@ -9,22 +9,8 @@ pagination:
   alias: posts
 ---
 <style>
-    .post {
-        margin: 2px 0px;
-        display: grid;
-        grid-template-columns: 1fr min-content 1fr;
-        align-items:center;
-    } 
-    .post > a {
-        text-align: right;
-        flex-grow: 1;
-    }
-    .post > p {
-        margin: 0 0;
-        text-align:center;
-    }
-    .post > time {
-        text-align: left;
+    .post time {
+      padding-right: 5px;
     }
     #posts {
         display:flex;
@@ -47,13 +33,14 @@ with styling inspiration from <a href="https://moonscript.org/">moonscript</a>
 </p>
 
 <h2>Posts</h2>
-<div id="posts">
+<table id="posts">
+  <tbody>
 {% for post in posts %}
-    <div class="post">
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-        <p>&#20;|&#20;</p>
-        <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-    </div>
+  <tr class="post">
+      <td><time datetime="{{ post.date | dateIso }}">{{ post.date | dateSimple }}</time></td>
+      <td><a href="{{ post.url | url }}">{{ post.data.title }}</a></td>
+  </tr>
 {% endfor %}
-</div>
+</tbody>
+</table>
 <div>

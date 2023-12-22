@@ -35,7 +35,7 @@ look at it again, saying that I'll work on them when I have more free time. But
 when another concept that I really noticed was that in a lot of the cases I just
 want to cut out middlemen in my life. A lot of cases where I'm using some
 service or tool where instead, I hate that I feel like I could make my own tool.
-The [plain-text-accounting](../../2022/plain-text-accounting) post is a great example of
+The [plain-text-accounting](../plain-text-accounting) post is a great example of
 this (which I definitely will post a part 2 soonish). This felt like a much
 better set of ideas to focus my time on since the work would actually help me
 and remove annoyances in my life. So the core concepts I'm going to focus on for
@@ -53,7 +53,7 @@ update that page.
 # Financial Views
 
 A lot of the pains with finances I've already talked about in
-[plain-text-accounting](../../2022/plain-text-accounting), but I'll mention some
+[plain-text-accounting](../plain-text-accounting), but I'll mention some
 points again to drive it home. If I have multiple financial accounts with
 different companies and different transactions, it's really hard to have a good
 idea of the current state of my finances. I've tried a few different platforms. 

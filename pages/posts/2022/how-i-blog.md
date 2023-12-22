@@ -8,7 +8,7 @@ permalink: "posts/how-i-blog/"
 tags: ["post"]
 ---
 
-Since that [last post](/posts/2022/why-i-blog) there have been a lot of changes
+Since that [last post](../why-i-blog) there have been a lot of changes
 in how my blog has been looking. Originally I was using
 [bearblog](https://bearblog.dev) but since then their terms and conditions
 changed. 

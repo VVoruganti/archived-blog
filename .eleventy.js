@@ -29,6 +29,10 @@ module.exports = function(eleventyConfig) {
     return moment(date).utc().format('LL'); // E.g. May 31, 2019
   });
 
+  eleventyConfig.addFilter('dateSimple', date => {
+    return moment(date).utc().format('YYYY-MM-DD'); // E.g. May 31, 2019
+  });
+
   // CSS Setup
   eleventyConfig.addPassthroughCopy('static');
   eleventyConfig.addWatchTarget('static');

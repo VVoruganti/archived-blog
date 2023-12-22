@@ -17,7 +17,7 @@ with. Eventually want to consolidate my bookmarks to make something like
 
 # Reading
 
-Currently reading: Priestdaddy by Patricia Lockwood
+Currently reading: Dawn of Yangchen by F. C. Yee
 
 # Want to learn
 
@@ -25,12 +25,34 @@ Different tech and concepts I find interesting and cool links I want to look at 
 
 ## Game Dev
 
+I just think games and their development are the coolest things. I find myself
+watching a lot of [Extra Credits](https://www.youtube.com/extracredits) and [Game Maker's
+Toolkit](https://www.youtube.com/@GMTK) videos. 
+
+Below are a few different tutorials and concepts I've been meaning to dive into
+
 - [Box2D tutorial](https://www.iforce2d.net/b2dtut/) — Struggled to find a good tutorial on this and really understand how to make a good feeling platformer
 - [libtcod](https://github.com/libtcod/libtcod) — Roguelike dev engine
 - [Game Programming Design Patterns](http://gameprogrammingpatterns.com/)
 - [How to make a .io game](https://victorzhou.com/blog/build-an-io-game-part-1/)
 - [Machinations](https://machinations.io/) — Tool to prototype game systems and economies
 - [How to make an RPG](https://howtomakeanrpg.com/)
+- [BYTEPATH Tutorial](https://github.com/a327ex/blog/issues/30) — A really nice
+  all encompassing tutorial for a Love2D game
+
+## Petal Stack
+
+I'm getting pretty tired of the NodeJS ecosystem and have been reading a lot
+about rails and why people really liked it back in the day. After working on a
+couple of projects where I had to figure out a ton of stuff like auth myself
+along with issues between client side vs server side code the opiniated all
+inclusive stack seems really appealing. Elxir + Pheonix + Liveview seems to be
+the modern successor in a lot of ways to rails.
+
+Additionally, I've been reading a lot of the [fly.io](https://fly.io/) blog
+posts, and they talk about elixir a lot, which fly being a great platform for
+running it. As a fan of fly, and it being the place where I want to host a lot of
+projects in the future I want to dive more into it. 
 
 ## Massively concurrrent dataflow programming languages
 
